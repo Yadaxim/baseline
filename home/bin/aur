@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd $(mktemp -d)
+bash <(curl meta.sh/aur) -si $@
+
